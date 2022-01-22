@@ -1,16 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body *{
+	transition: 0.3s;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: #17a2b8;
 }
 
-* {
-  box-sizing: border-box;
+ul {
+  list-style: none;
 }
+
+h1,h2,h3,h4,h5,h6,strong {
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 500;
+}
+
+p, li, span, label, input, textarea{
+  color: #4b5156;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {font-size: 56px;}
+h2 {font-size: 36px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 16px;}
